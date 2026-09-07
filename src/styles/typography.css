@@ -1,0 +1,96 @@
+/* Typography System */
+body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--ryuma-black);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Display Titles */
+.display-hero {
+  font-family: var(--font-primary);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  color: var(--ryuma-black);
+}
+
+.display-title {
+  font-family: var(--font-primary);
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  color: var(--ryuma-black);
+}
+
+.display-subtitle {
+  font-family: var(--font-primary);
+  font-size: clamp(1.4rem, 2.5vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--ryuma-black);
+}
+
+.editorial-statement {
+  font-family: var(--font-primary);
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--ryuma-muted);
+}
+
+/* Micro Labels */
+.micro-label {
+  font-family: var(--font-primary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ryuma-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1;
+}
+
+.micro-label.accent {
+  color: var(--ryuma-purple);
+}
+
+.micro-number {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--ryuma-soft);
+}
+
+/* Monospace token labels */
+.code-tag {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  background: rgba(32, 32, 42, 0.05);
+  border-radius: var(--radius-xs);
+  color: var(--ryuma-black);
+}
+
+/* Section titles */
+.section-headline {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.lead-p {
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--ryuma-muted);
+  max-width: 620px;
+}

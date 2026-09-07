@@ -1,0 +1,6 @@
+{
+  "name": "Ryūma — Design Anatomy",
+  "description": "Visual design-learning and experimentation platform exploring colour, type, form, space, and motion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
