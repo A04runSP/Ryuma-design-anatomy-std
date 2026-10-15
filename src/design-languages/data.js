@@ -2,6 +2,46 @@
 
 export const DESIGN_LANGUAGES = [
   {
+    id: 'swiss-international',
+    number: '04.01',
+    name: 'Swiss / International Style',
+    era: '1950s — Present',
+    heroTag: 'Clarity through structure.',
+    shortDescription: 'A disciplined visual language built on grids, typography, and objective communication.',
+    description: 'The International Typographic Style uses modular grids, asymmetric composition, neutral sans-serif typography, and restrained colour to make information clear and direct.',
+    characteristics: ['Modular grid systems', 'Asymmetric composition', 'Objective sans-serif typography', 'Restrained accent colours', 'Purposeful negative space', 'Clear information hierarchy'],
+    palette: [
+      { name: 'Paper', hex: '#F3EFE5', role: 'Primary background' },
+      { name: 'Ink', hex: '#20201D', role: 'Primary typography' },
+      { name: 'Signal Red', hex: '#D9382B', role: 'Primary accent' },
+      { name: 'Grid Grey', hex: '#D8D3C9', role: 'Structural rules' },
+      { name: 'Signal Blue', hex: '#244B9B', role: 'Secondary accent' }
+    ],
+    anatomy: {
+      colour: { title: 'Purposeful restraint', explanation: 'Paper and ink create a neutral foundation. Accent colour directs attention rather than decorating the layout.' },
+      type: { title: 'Type is the architecture', explanation: 'Grotesk sans-serif typography, decisive scale contrast, and clear hierarchy replace ornamental effects.' },
+      form: { title: 'Geometric clarity', explanation: 'Rules, rectangles, and aligned edges expose relationships and structure information.' },
+      space: { title: 'Whitespace as structure', explanation: 'Margins and gutters create grouping, pace, and emphasis. Negative space is an active design element.' },
+      motion: { title: 'Motion with purpose', explanation: 'Restrained transitions clarify state and hierarchy without competing with the message.' }
+    },
+    principles: [
+      { title: 'GRID', subtitle: 'ORDER THAT SCALES', detail: 'A modular grid creates repeatable relationships between text, image, and space.' },
+      { title: 'TYPOGRAPHY', subtitle: 'THE MESSAGE FIRST', detail: 'Neutral sans-serif type and a deliberate scale make the reading order clear.' },
+      { title: 'ASYMMETRY', subtitle: 'BALANCE WITHOUT MIRRORING', detail: 'Unequal elements can create dynamic balance when their weight and alignment are controlled.' },
+      { title: 'OBJECTIVITY', subtitle: 'REMOVE THE NOISE', detail: 'Visual decisions serve the information and audience instead of the designer’s ego.' }
+    ],
+    layers: [
+      { step: '01', title: 'GRID', text: 'Columns, margins, and gutters establish a reliable structural system.' },
+      { step: '02', title: 'TYPOGRAPHY', text: 'Type scale and weight determine reading order.' },
+      { step: '03', title: 'SPACE', text: 'Negative space separates, groups, and gives content room to breathe.' },
+      { step: '04', title: 'ACCENT', text: 'A small amount of colour directs attention to the most important information.' }
+    ],
+    composition: 'Asymmetric compositions organized by modular columns, precise alignment, clear typographic hierarchy, and deliberate negative space.',
+    applications: ['Posters and cultural campaigns', 'Editorial and magazine systems', 'Wayfinding and signage', 'Websites and digital interfaces'],
+    specimen: { study: 'RYŪMA / STUDY 04.01', tagline: 'Clarity through structure.', caption: 'Grid · type · space · hierarchy', cta: 'EXPLORE →' }
+  },
+
+  {
     id: 'glassmorphism',
     number: '02',
     name: 'Glassmorphism',
