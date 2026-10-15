@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SectionLabel from '../../components/SectionLabel';
+import SwissStylePage from './SwissStylePage';
 import Button from '../../components/Button';
 import VisualSpecimen from '../../components/VisualSpecimen';
 import AnatomySection from '../../components/AnatomySection';
@@ -7,6 +8,7 @@ import { DESIGN_LANGUAGES } from '../../design-languages/data';
 import { ArrowLeft, Check, Layers, Sliders, Sparkles, ExternalLink } from 'lucide-react';
 
 export default function StyleDetail({ styleId, onBack, onSelectOtherStyle }) {
+  if (styleId === 'swiss-international') return <SwissStylePage onBack={onBack} />;
   const currentStyle = DESIGN_LANGUAGES.find((s) => s.id === styleId) || DESIGN_LANGUAGES[0];
 
   const [activeLayerTab, setActiveLayerTab] = useState(0);
